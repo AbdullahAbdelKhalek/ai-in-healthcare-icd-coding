@@ -7,6 +7,7 @@ cache/                     # processed cohort, vocab, trained weights
 
 # not committed
 *.pdf
+~$*                        # Office lock/temp files
 artifacts/attention_examples.json
 results/attention_evidence.png
 
