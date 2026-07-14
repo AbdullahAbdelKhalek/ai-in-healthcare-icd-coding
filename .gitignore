@@ -1,0 +1,18 @@
+# ---------------------------------------------------------------------------
+# MIMIC-III is credentialed data under a Data Use Agreement.
+# Never commit the data, or anything derived from it that contains note text.
+# ---------------------------------------------------------------------------
+data/                      # the three MIMIC-III CSVs go here (bring your own)
+cache/                     # processed cohort, vocab, trained weights
+
+# generated artifacts, not part of the repo
+*.pptx
+*.pdf
+artifacts/attention_examples.json
+results/attention_evidence.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
