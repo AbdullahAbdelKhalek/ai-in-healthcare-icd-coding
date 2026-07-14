@@ -5,8 +5,7 @@
 data/                      # the three MIMIC-III CSVs go here (bring your own)
 cache/                     # processed cohort, vocab, trained weights
 
-# generated artifacts, not part of the repo
-*.pptx
+# not committed
 *.pdf
 artifacts/attention_examples.json
 results/attention_evidence.png

@@ -199,6 +199,7 @@ your own credentialed copy of MIMIC-III to see the attended phrases on real disc
 
 ```
 ICD_Coding_Tutorial.ipynb   the tutorial: builds the cohort, trains both models, evaluates, and shows attention
+ICD_Coding_Tutorial.pptx    slide presentation with detailed speaker notes
 README.md                   this document
 requirements.txt            Python dependencies
 results/fig_compare.png     the baseline-vs-CNN comparison figure
@@ -255,6 +256,12 @@ MIMIC-III is governed by the PhysioNet Credentialed Health Data Use Agreement. T
 and no note text**: the `data/` folder is git-ignored, the notebook is stored without note-bearing outputs, and no
 raw excerpts appear in the README or figures. To reproduce the results, obtain your own credentialed copy of
 MIMIC-III from PhysioNet.
+
+## Presentation
+
+A slide presentation with detailed speaker notes accompanies this project: `ICD_Coding_Tutorial.pptx`. It walks
+through the same material as this README, one step per slide. The worked attention example in the slides uses
+illustrative phrases rather than real note text, in keeping with the data use agreement.
 
 ## Reference
 
